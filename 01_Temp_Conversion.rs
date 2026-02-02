@@ -90,7 +90,7 @@ fn main() {
         // F = (C x (9 / 5)) + 32
 
         let mut results = (farenheit - 32.0) * 5.0/9.0;
-        println!("Celcius {:.2}, Farenheiht {}", results, farenheit);
+        println!("Celcius {:.2} = Farenheiht {}", results, farenheit);
 
 
     }
@@ -118,7 +118,7 @@ fn main() {
         // F = (C x (9 / 5)) + 32
 
         let mut results = celcius * (9.0 / 5.0) + 32.0;
-        println!("Farenheiht {:.2}, celcius {}", results, celcius);
+        println!("Farenheiht {:.2} = celcius {}", results, celcius);
 
 
     }
